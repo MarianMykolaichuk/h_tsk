@@ -7,11 +7,6 @@
 # reverse('Hello World') == 'World Hello'
 # reverse('Hi There.') == 'There. Hi'
 
-# def reverse(st):
-#     st = " ".join(st.split(" ")[::-1] )
-#     return st
-
-# print(reverse('sit  udwtg sd fkusrosydwwyeuopfrdwakddg otp '))
 
 def reverse(st):
     string = st.split()
