@@ -9,6 +9,7 @@
 
 
 def reverse(st):
+    '''reverses the words in a given string '''
     string = st.split()
     string.reverse()
     st = " ".join(string)
