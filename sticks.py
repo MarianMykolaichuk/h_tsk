@@ -1,12 +1,12 @@
 import random
 
 print('''
-        21 ПАЛИЧКА
+         ПАЛИЧКИ
                    ...форт Буаяр едіШн
 
 
 
-Мета ГРИ:
+Правила ГРИ:
          Кожен з гравців витягає від 1 до 3 паличок.
          Програє той, хто останнім робить хід.
 
@@ -21,7 +21,7 @@ while True:
 # обираємо кількість паличок
 
 while True:
-    number_of_sticks = int(input("Оберіть від 10 до 50 паличок. Зі скількох почнемо? \n"))
+    number_of_sticks = int(input("Оберіть кількість паличок (від 10 до 50) \n"))
     if number_of_sticks>=10 and number_of_sticks<=50:
         print("Гра почалась!" )
         print('" ' * 7)
@@ -65,8 +65,8 @@ while number_of_sticks>0:
             break
             
 if whose_turn==1:
-    print("Переміг гравець 2 !!!")
+    print("Переміг гравець 2 !")
 if whose_turn==2:
-    print("Переміг гравець 1 !!!")
+    print("Переміг гравець 1 !")
     
     
